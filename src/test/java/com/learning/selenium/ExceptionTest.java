@@ -57,7 +57,7 @@ public class ExceptionTest {
 		 driver.get("http://the-internet.herokuapp.com/dynamic_controls");
 		 driver.manage().window().maximize();
 		 WebElement textField=driver.findElement(By.xpath("//input[@type='text']"));
-//		 System.out.println("is Disabled "+textField.getAttribute("disabled"));
+		 System.out.println("is Disabled "+textField.getAttribute("disabled"));
 
 		 System.out.println("is Disabled "+!textField.getAttribute("disabled").equals("true"));
 		 System.out.println("is Enabled "+textField.isEnabled());
