@@ -1,6 +1,0 @@
-Error: Element //android.widget.EditText[contains(@resource-id,":id/searchEditText")] was expected to be visible$
-*******************************************
-Error: Element //android.widget.TextView[contains(@resource-id,":id/enterMiSubtitle")] was expected to be visible$
-*******************************************
-Error: Element ~Memorable Information was expected to be visible$
-*******************************************

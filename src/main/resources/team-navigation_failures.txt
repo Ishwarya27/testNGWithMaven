@@ -1,4 +1,0 @@
-Error: Element //android.widget.TextView[contains(@resource-id,":id/eiaPinFirstDigit")] was expected to be visible$
-*******************************************
-Error: Error: Connection refused (Connection refused)
-*******************************************
