@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-08T18:52:19Z" name="Suite1" finished-at="2020-11-08T18:52:30Z" duration-ms="11306">
+    <groups>
+    </groups>
+    <test started-at="2020-11-08T18:52:19Z" name="ErrorMessageTest" finished-at="2020-11-08T18:52:30Z" duration-ms="11306">
+      <class name="com.learning.selenium.ErrorMessageTest">
+        <test-method signature="errormess()[pri:0, instance:com.learning.selenium.ErrorMessageTest@58a90037]" started-at="2020-11-08T18:52:19Z" name="errormess" finished-at="2020-11-08T18:52:30Z" duration-ms="11288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errormess -->
+      </class> <!-- com.learning.selenium.ErrorMessageTest -->
+    </test> <!-- ErrorMessageTest -->
+  </suite> <!-- Suite1 -->
+</testng-results>

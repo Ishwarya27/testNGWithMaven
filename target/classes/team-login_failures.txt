@@ -1,0 +1,20 @@
+Error: Element //android.widget.TextView[contains(@resource-id,":id/enterMiSubtitle")] was expected to be visible$
+*******************************************
+Error: Element ~Memorable Information was expected to be visible$
+*******************************************
+Error: Elements not visible after 120000 seconds
+*******************************************
+Unexpected error occurred while processing command 'WebDriver findElement'. Error message: java.net.SocketTimeoutException: timeout
+*******************************************
+AssertionError: expected true to equal false
+    at EnrolmentPage.checkGreyedOutEnability (/home/jenkins/agent/workspace/nga-3-aft-mobile-weeknightMasterAndroidNonGeneric/src/pages/enrolment.page.js:238:83)
+*******************************************
+AssertionError: expected true to equal false
+    at EnrolmentPage.checkGreyedOutEnability (/home/jenkins/agent/workspace/nga-3-aft-mobile-weeknightMasterIosNonGeneric/src/pages/enrolment.page.js:236:92)
+*******************************************
+Error: Element ~errorPageHeader was expected to be visible$
+*******************************************
+Error: Elements not visible after 120000 seconds
+*******************************************
+Error: Failed to execute command text select: Needle not found for expected value: "Credit card"
+*******************************************

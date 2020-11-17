@@ -1,0 +1,10 @@
+Error: Element "//android.widget.TextView[contains(@text,"Curr Year Funded Cash ISA")]" not found whilst scrolling!
+*******************************************
+Error: Element //android.widget.LinearLayout[@content-desc="accountTileActionMenuTopUpIsaButton"] was expected to be visible$
+*******************************************
+Error: Element ~eia_calling_pin_1 was expected to be visible$
+*******************************************
+Error: Failed to execute command application install: Device 00008020-000A74E90190003A is not allocated to mobiledigitalplatformengineering@lloydsbanking.com
+*******************************************
+Error: TEST_DATA_ERROR
+*******************************************

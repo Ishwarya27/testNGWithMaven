@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Suite">
+
+	<test name="PositiveLoginTest">
+		<parameter name="browser" value="chrome" />
+		<parameter name="username" value="tomsmith" />
+		<parameter name="password" value="SuperSecretPassword!" />
+		<groups>	
+				<run>	
+   					 <include name="Happy Path" />	
+        		</run>	
+       		</groups>	
+		<classes>
+			<class name="com.learning.selenium.LoginPageTest">
+			</class>
+		</classes>
+	</test>
+	 <test name="WrongUsernameTest">
+		<parameter name="username" value="ishwarya" />
+		<parameter name="password" value="SuperSecretPassword!" />
+		<classes>
+			<class name="com.learning.selenium.LoginPageTest">
+				<methods>
+					<include name="loginWrongUsername" />
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+	<test name="WrongPasswordTest">
+		<parameter name="username" value="tomsmith" />
+		<parameter name="password" value="SuperSecretPassword" />
+		<classes>
+			<class name="com.learning.selenium.LoginPageTest">
+				<methods>
+					<include name="loginWrongPassword" />
+				</methods>
+			</class>
+		</classes> 
+
+	</test> 
+
+</suite> 
